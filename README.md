@@ -19,9 +19,12 @@ existing `~/.tmux.conf` first)
 
 ```
 $ cd
-$ git clone https://github.com/gpakosz/.tmux.git
-$ ln -s -f .tmux/.tmux.conf
-$ cp .tmux/.tmux.conf.local .
+$ git clone https://github.com/travisb/.tmux
+<!-- TODO ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+<!--   REMOVE IF PULL REQUEST NOT ACCEPTED>  -->
+<!--    TODO TODO TODO TODO TODO TODO TODO   -->
+$ ln -s `pwd`/tmux.conf ~/.tmux.conf
+$ ln -s `pwd`/tmux.conf.local ~/.tmux.conf.local
 ```
 
 Then proceed to [customize] your `~/.tmux.conf.local` copy.
